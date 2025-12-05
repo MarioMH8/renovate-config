@@ -1,17 +1,17 @@
 <h1 align="center">
-  Configuración de Renovate
+  Renovate Configuration
 </h1>
 
 <p align="center">
-  Configuración común de renovate para los proyectos de hexadrop.
+  Common Renovate configuration for @marimh projects.
 </p>
 
-Pudes utilizar este preset mediante la siguiente configuración
+You can use this preset with the following configuration:
 
 ```json
 {
     "extends": [
-        "github>hexadrop/renovate-config"
+        "github>MarioMH8/renovate-config"
     ]
 }
 ```
