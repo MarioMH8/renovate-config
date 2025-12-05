@@ -11,7 +11,7 @@
 	"npmrc": "@mariomh:registry=https://europe-npm.pkg.dev/mariomh/npm/",
 	"packageRules": [
 		{
-			"matchPackageNames": ["@mariomh/*"],
+			"matchPackageNames": ["@mariomh/*", "!@mariomh/resume"],
 			"groupName": "@mariomh monorepo"
 		}
 	]
