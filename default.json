@@ -2,12 +2,12 @@
 	"extends": ["github>hexadrop/renovate-config"],
 	"packageRules": [
 		{
-			"matchPackageNames": ["@mariomh/**"],
+			"matchPackageNames": ["@mariomh8/**"],
 			"minimumReleaseAge": null
 		},
 		{
-			"matchPackageNames": ["@mariomh/*", "!@mariomh/resume"],
-			"groupName": "@mariomh monorepo"
+			"matchPackageNames": ["@mariomh8/*", "!@mariomh8/resume"],
+			"groupName": "@mariomh8 monorepo"
 		}
 	]
 }
